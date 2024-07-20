@@ -5,25 +5,30 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Stellar AI",
-  description: "Advanced AI Solutions for Space Warfare and National Security Operations",
+  title: "Stellar AI: AI for Space Warfare and National Security",
+  description: "Providing advanced AI solutions tailored for space warfare and national security operations, Stellar AI partners closely with the US Department of Defense to enhance strategic capabilities.",
+  metadataBase: new URL('https://stellarai.tech'),
   openGraph: {
     title: "Stellar AI",
-    description: "Advanced AI Solutions for Space Warfare and National Security Operations",
+    description: "Providing advanced AI solutions tailored for space warfare and national security operations, Stellar AI partners closely with the US Department of Defense to enhance strategic capabilities.",
+    url: 'https://stellarai.tech',
+    siteName: 'Stellar AI',
     images: [
       {
-        url: "https://stellarai.tech/og-image.jpg", // Replace with your actual OG image URL
+        url: "https://stellarai.tech/og-image.jpg",
         width: 1200,
         height: 630,
         alt: "Stellar AI Open Graph Image",
       },
     ],
+    locale: 'en_US',
+    type: 'website',
   },
   twitter: {
     card: "summary_large_image",
     title: "Stellar AI",
-    description: "Stellar AI pivoting to a secure and regulated environment",
-    images: ["https://example.com/og-image.png"], // Replace with your actual OG image URL
+    description: "Providing advanced AI solutions tailored for space warfare and national security operations, Stellar AI partners closely with the US Department of Defense to enhance strategic capabilities.",
+    images: ["https://stellarai.tech/og-image.jpg"],
   },
 };
 
