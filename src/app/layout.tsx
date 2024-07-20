@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: 'Stellar AI',
     images: [
       {
-        url: "https://stellarai.tech/og-image.jpg",
+        url: "https://stellarai.tech/og-image.png",
         width: 1200,
         height: 630,
         alt: "Stellar AI Open Graph Image",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Stellar AI",
     description: "Providing advanced AI solutions tailored for space warfare and national security operations, Stellar AI partners closely with the US Department of Defense to enhance strategic capabilities.",
-    images: ["https://stellarai.tech/og-image.jpg"],
+    images: ["https://stellarai.tech/og-image.png"],
   },
 };
 
